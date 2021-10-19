@@ -1,0 +1,146 @@
+/* Utilities */
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+/* flex & grid */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+/* Global Buttons */
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.btn-outline {
+  background-color: transparent;
+  border: 2px #3b4d61 solid;
+}
+.btn:hover {
+  transform: scale(0.95);
+}
+/* BG & btn*/
+.bg-primary,
+.btn-primary {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+.bg-third,
+.btn-third {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+}
+/* Text sizes */
+.lead {
+  font-size: 20px;
+}
+.sm {
+  font-size: 1rem;
+}
+.md {
+  font-size: 2rem;
+}
+.lg {
+  font-size: 3rem;
+}
+.xl {
+  font-size: 4rem;
+}
+.text-center {
+  text-align: center;
+}
+/* Margin */
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 3rem 0;
+}
+.my-5 {
+  margin: 4rem 0;
+}
+/* ----- */
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 1.5rem;
+}
+.m-3 {
+  margin: 2rem;
+}
+.m-4 {
+  margin: 3rem;
+}
+.m-5 {
+  margin: 4rem;
+}
+/* padding */
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 3rem 0;
+}
+.py-5 {
+  padding: 4rem 0;
+}
+/* ----- */
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.5rem;
+}
+.p-3 {
+  padding: 2rem;
+}
+.p-4 {
+  padding: 3rem;
+}
+.p-5 {
+  padding: 4rem;
+}
+/* End of Utilities */

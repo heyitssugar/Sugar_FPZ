@@ -1,0 +1,156 @@
+/* Media & Responsive */
+/* For Tablet and under */
+@media (max-width: 768px) {
+  .grid,
+  .header .grid,
+  .about .grid,
+  .steps .grid,
+  .features .grid,
+  .roles .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about {
+    padding-top: 40px;
+    height: auto;
+  }
+  .steps {
+    padding-top: 50px;
+    height: 600px;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    position: relative;
+  }
+  .features {
+    padding-top: 60px;
+    height: 880px;
+    color: var(--secondary-color);
+  }
+  .roles {
+    padding-top: 60px;
+    height: 550px;
+    background-color: var(--main-color);
+  }
+  .roles .grid .role {
+    margin: 20px;
+  }
+  .footer {
+    padding-top: 60px;
+  }
+}
+/* Mobile */
+@media (max-width: 500px) {
+  .navbar {
+    background-color: var(--main-color);
+    height: auto;
+  }
+  .navbar ul {
+    display: flex;
+    padding: 10px;
+  }
+  .navbar a {
+    color: var(--secondary-color);
+    padding: 5px;
+    margin: 0 5px;
+    font-weight: 700;
+  }
+  .navbar a:hover {
+    border-bottom: 2px var(--secondary-color) solid;
+  }
+  .navbar .flex {
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: visible;
+  }
+  .navbar .logo {
+    color: var(--secondary-color);
+  }
+  .grid,
+  .header .grid,
+  .about .grid,
+  .steps .grid,
+  .features .grid,
+  .roles .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header {
+    height: 600px;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    position: relative;
+  }
+  .header h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .header p {
+    margin: 20px 0;
+  }
+  .header .grid {
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    overflow: visible;
+  }
+  .about {
+    padding-top: 40px;
+    height: auto;
+  }
+  .about .grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: start;
+    align-items: flex-start;
+    overflow: visible;
+  }
+  .about-img h1 {
+    font-size: 35px;
+  }
+  .about-p h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .about-p p {
+    margin-top: 28px;
+    font-size: 18px;
+  }
+  .steps {
+    padding-top: 35px;
+    height: auto;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    position: relative;
+  }
+  .steps .grid {
+    grid-template-columns: 1fr;
+  }
+  .steps-mov {
+    padding-top: 80px;
+  }
+  .steps .step {
+    text-align: center;
+  }
+  .features {
+    padding-top: 35px;
+    height: auto;
+    color: var(--secondary-color);
+  }
+  .features .grid {
+    grid-template-columns: 1fr;
+    padding-top: 30px;
+  }
+  .features .feature {
+    margin: 10px 10px;
+  }
+  .roles {
+    padding-top: 35px;
+    height: auto;
+    background-color: var(--main-color);
+  }
+  .roles .grid {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding-top: 65px;
+  }
+  .roles .grid .role {
+    margin: 20px;
+  }
+}
